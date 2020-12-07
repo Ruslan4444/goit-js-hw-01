@@ -5,11 +5,13 @@ const buyDroid = prompt('Введите число дроидов которые
 const totalPrice = buyDroid * pricePerDroid;
 const balance = credits - totalPrice;
 const buyDroids = totalPrice / pricePerDroid;
+let message;
 
 if (buyDroid === null) {
-    console.log('Отменено пользователем');
+    message = ('Отменено пользователем');
 } else if (totalPrice > credits) {
-    console.log('Недостаточно средств на счету')
+    message = ('Недостаточно средств на счету')
 } else {
-    console.log(`Вы купили ${buyDroids} дроидов, на счету осталось ${balance} кредитов.`)
+    message = (`Вы купили ${buyDroids} дроидов, на счету осталось ${balance} кредитов.`)
 }
+console.log(message);

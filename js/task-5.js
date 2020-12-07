@@ -10,30 +10,26 @@ if (myCountry !== null) {
 
 switch (myCountry) {
     case 'китай':
-        cost = 100;
-        console.log(`Доставка в ${myCountry} будет стоить ${cost} кредитов`);
+        cost = `Доставка в ${myCountry} будет стоить 100 кредитов`;;
         break;
     case 'чили':
-        cost = 250;
-        console.log(`Доставка в ${myCountry} будет стоить ${cost} кредитов`);
+        cost = `Доставка в ${myCountry} будет стоить 250 кредитов`;;
         break;
     case 'австралия':
-        cost = 170;
-        console.log(`Доставка в ${myCountry} будет стоить ${cost} кредитов`);
+        cost = `Доставка в ${myCountry} будет стоить 170 кредитов`;;
         break;
     case 'индия':
-        cost = 80;
-        console.log(`Доставка в ${myCountry} будет стоить ${cost} кредитов`);
+        cost = `Доставка в ${myCountry} будет стоить 80 кредитов`;;
         break;
     case 'ямайка':
-        cost = 120;
-        console.log(`Доставка в ${myCountry} будет стоить ${cost} кредитов`);
+        cost = `Доставка в ${myCountry} будет стоить 120 кредитов`;
         break;
     default:
         alert('В вашей стране доставка не доступна');
         
-   
 }
+console.log(cost);
+
 
     
 
