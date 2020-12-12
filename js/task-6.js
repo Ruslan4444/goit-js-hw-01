@@ -1,7 +1,7 @@
 let input;
 let total = 0;
 
-while (input !== total) {
+while (input !== null) {
     input = prompt('Введите число');
 
     if (input === null) {
